@@ -16,9 +16,7 @@ def reader(filename):
 
 
 def count(ips_list):
-    count = Counter(ips_list)
-
-    return count
+    return Counter(ips_list)
 
 
 def write_csv(count):
